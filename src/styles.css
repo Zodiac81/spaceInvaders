@@ -1,0 +1,43 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/bg.jpg");
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.invader_1 {
+    background-image: url('../img/alien_1.png');
+    background-size: contain;
+}
+
+.invader_2 {
+    background-image: url('../img/alien_2.png');
+    background-size: contain;
+}
+.invader {
+    background-image: url('../img/alien_1.png');
+    background-size: contain;
+}
+
+.shooter {
+    background-image: url('../img/spaceship.png');
+    background-size: cover;
+}
+
+
+.laser {
+    background-image: url('../img/laser.png');
+    background-size: cover;
+}
+
+.boom {
+    background-image: url('../img/boom.png');
+    background-size: cover;
+}
